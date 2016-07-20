@@ -1,0 +1,100 @@
+body, ul, input { margin: 0; padding: 0;}
+li { list-style: none;}
+#wrap { width: 860px; height: 490px; padding: 10px; margin: 50px auto;}
+
+
+#control_bar_container { width: 200px; height: 480px; border: 5px solid rgb( 136, 136, 136 ); border-radius: 10px; float: left;}
+#control_bar { width: 100%; height: 100%; 
+display: -webkit-box; 
+display: -moz-box; 
+display: -o-box; 
+display: box;
+-webkit-box-orient: vertical; 
+-moz-box-orient: vertical; 
+-o-box-orient: vertical; 
+box-orient: vertical; 
+-webkit-box-pack: center; 
+-moz-box-pack: center; 
+-o-box-pack: center; 
+box-pack: center; 
+-webkit-box-align: center; 
+-moz-box-align: center; 
+-o-box-align: center;
+box-align: center;
+
+display: -moz-box;
+-moz-box-pack: center;
+-moz-box-orient: vertical;
+-moz-box-align: center;
+
+}
+#step, #begin_control, #pic_change { width: 100px; height: 30px; border: 2px solid rgb( 136, 136, 136 ); -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; margin-bottom: 50px; 
+display: -webkit-box; 
+display: -moz-box; 
+display: -o-box; 
+display: box;
+-webkit-box-pack: center; 
+-moz-box-pack: center; 
+-o-box-pack: center; 
+box-pack: center; 
+-webkit-box-align: center; 
+-moz-box-align: center; 
+-o-box-align: center; 
+box-align: center;
+font-weight: bold;}
+#step { color: #C00; cursor: default;}
+#begin_control, #pic_change { cursor: pointer; color: black;}
+#begin_control.closeBtn { cursor: default; color: grey;}
+
+div#pic_content { width: 630px; height: 480px; float: left; margin-left: 10px; border: 5px solid rgb( 136, 136, 136 ); -webkik-border-radius: 10px; -moz-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; position: relative;}
+
+ul#pic_frame { width: 630px; height: 480px; border: 0px solid white; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; position: absolute; top: 0; left: 0; -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -o-transform-style: preserve-3d; transform-style: preserve-3d; -webkit-prespective: 1200px; -moz-perspective: 1200px; -o-persepective: 1200px; perspective: 1200px;}
+.pic_frame li { width: 210px; height: 160px; background: rgb( 229, 229, 229 ); -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; position: absolute; -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -o-transform-style: preserve-3d; transform-style: preserve-3d; -webkit-transform-origin: center center 0; -moz-transform-origin: center center 0; -o-transform-origin: center center 0; transform-origin: center center 0; -webkit-perspective: 1200px; -moz-perspective: 1200px; -o-perspective: 1200px;ss perspective: 1200px; -webkit-transition: 1s linear; -moz-transition: 1s linear; -o-transition: 1s linear; transition: 1s linear;}
+.pic_frame div:nth-of-type(1) { width: 200px; height: 150px; margin: 5px; -webkit-box-shadow: 0 0 5px 5px #666; -moz-box-shadow: 0 0 5px 5px #666; -o-box-shadow: 0 0 5px 5px #666; box-shadow: 0 0 5px 5px #666; position: absolute; top: 0; left: 0;-webkit-transform-origin: center center 0; -moz-transfomr: center center 0; -o-transform-origin: center center 0; transform-origin: center center 0; transform: translate(1px);}
+.pic_frame div:nth-of-type(2) { width: 206px; height: 156px; border: 0px white solid; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0 0 2px 2px #666; -moz-box-shadow: 0 0 2px 2px #666; -o-box-shadow: 0 0 2px 2px #666; box-shadow: 0 0 2px 2px #666; background: url(../img/bf1.png); position: absolute; top: 2px; left: 2px;
+
+-webkit-transform: rotateY(180deg) translateZ(1px);
+-moz-transform: rotateY(180deg) translateZ(1px);
+-o-transform: retateY(180deg) translate(1px);
+transform: retateY(180deg) translateZ(1px);
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+-o-transform-style: preserve-3d;
+transform-style: preserve-3d;
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-o-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+.pic_frame li:nth-of-type(1) { top: 0; left: 0;}
+.pic_frame li:nth-of-type(2) { top: 0; left: 210px;}
+.pic_frame li:nth-of-type(3) { top: 0; left: 420px;}
+.pic_frame li:nth-of-type(4) { top: 160px; left: 0;}
+.pic_frame li:nth-of-type(5) { top: 160px; left: 210px;}
+.pic_frame li:nth-of-type(6) { top: 160px; left: 420px;}
+.pic_frame li:nth-of-type(7) { top: 320px; left: 0;}
+.pic_frame li:nth-of-type(8) { top: 320px; left: 210px;}
+.pic_frame li:nth-of-type(9) { top: 320px; left: 420px;}
+
+.tBack { -webkit-transform: rotateY(180deg); -moz-transform: roateY(180deg); -o-transform: rotate(180deg); transform: rotateY( 180deg);}
+.tBackHidden { opacity: 0;}
+
+#bg_list { width: 630px; height: 480px; border: 0px white solid; position: absolute; top: 0; left: 0; background: white; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; display: none;}
+.bg { width: 630px; height: 79px; margin: 100px 0;
+display: -webkit-box; 
+display: -moz-box; 
+display: -o-box; 
+-webkit-box-pack: center; 
+-moz-box-pack: center; 
+-o-box-pack: center;
+}
+.bg div { width: 100px; height: 75px; -moz-height: 79px; margin: 0 15px; border: 2px solid black; cursor: pointer;}
+.bg div.active { border: 2px #FF0 solid;}
+.bg div:nth-of-type(1) { background: url(../img/mini_bg1.png);}
+.bg div:nth-of-type(2) { background: url(../img/mini_bg2.png);}
+.bg div:nth-of-type(3) { background: url(../img/mini_bg3.png);}
+.bg div:nth-of-type(4) { background: url(../img/mini_bg4.png);}
+
+.bg_btn { width: 630px; height: 34px; display: -webkit-box; display: -moz-box; display: -o-box; -webkit-box-pack: center; -moz-box-pack: center; -o-box-pack: center; -webkit-box-align: center; -moz-box-align: center; -o-box-align: center;}
+.bg_btn div { width: 70px; heigth: 30px; border: 2px solid rgb( 136, 136, 136 ); -webkit-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; margin: 0 15px; font-size: 20px; line-height: 30px; font-weight: bold; text-align: center; cursor: pointer;}

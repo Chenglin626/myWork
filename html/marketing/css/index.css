@@ -1,0 +1,54 @@
+.nav, .nav li, .nav li span { background:  url(../images/icon/sprite.png) 0 0 no-repeat;}
+* { padding: 0;	margin: 0; list-style: none;}
+html, body { height: 100%; overflow: hidden;}
+.wrap {	height: 100%; position: relative; left: 0; top: 0;}
+.page { height: 100%;}
+.page2 .zpan { width: 371px; height: 347px; transform: translate(-50%,-50%) rotate(0deg);}
+.page2 .denlu { width: 141px; height: 39px; top:75%;}
+.bx { width: 1280px; position: relative; height: 100%; left: 50%; margin-left: -640px;}
+.center { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%)}
+.page1, .page2, .page3, .page4, .page5, .page6 { overflow: hidden;}
+.bx .fz1 { width: 709px; height: 625px; left: 35%; z-index: 3;}
+.bx .fz2 { width: 328px; height: 162px; left: 70%; z-index: 3; top: 60%;}
+.bx .fz3 { width: 1440px; height: 441px; left: 50%; top: 80%; z-index: 2}
+.bx .jdown1 { top: 15%; z-index: 3}
+.bx .fwys { left: 65%; top: 60%;}
+.bx .medal { top: 40%;}
+.bx .mountain { top: 80%;}
+.bx .sunlight { opacity:100;}
+.bx .unite { top: 8%;}
+.bx .myr { opacity: 100; width: 200px; height: 200px; transform: translate(-50%,-50%) rotate(0deg);}
+.bx .myr img { width: 100%; height: 100%;}
+.bx .month { top: 83%;}
+.bx .ufo { top:25%;}
+.bx .phone { left: 86%;}
+.bx .pliers { z-index: 3; top: 55%; transform: translate(-50%,-50%) rotate(0deg);}
+.page1 { background: url("../images/img/b1_bg.jpg") no-repeat 0 0; background-size: 100%;}
+.page2 { background: url("../images/img/b11_bg.jpg") no-repeat 0 0; background-size: 100%;}
+.page3 { background: url("../images/img/b2-bg.jpg") no-repeat 0 0; background-size: 100%;}
+.page4 { background: url("../images/img/b3-bg.jpg") no-repeat 0 0; background-size: 100%;}
+.page5 { background: url("../images/img/b4-bg.jpg") no-repeat 0 0; background-size: 100%;}
+.page6 { background: url("../images/img/b5-bg.png") no-repeat 0 0; background-size: 100%;}
+
+div.Tlin .fz1 { top: 0%; left: -0%;}
+div.Tlin .fz2 { top: 60%; left: 100%;}
+div.Tlin .fz3 { top: 100%;}
+div.Tlin .zpan { transform: translate(-50%,-50%) rotate(360deg);}
+div.Tlin .denlu { top: 85%;}
+div.Tlin .jdown1 { top: -30%;}
+div.Tlin .fwys { top: 120%}
+div.Tlin .medal { top: 0%}
+div.Tlin .mountain { top: 120%;}
+div.Tlin .sunlight { opacity: 0;}
+div.Tlin .unite { top: 0%;}
+div.Tlin  .myr { transform: translate(-50%,-50%) rotate(360deg); opacity: 50;}
+div.Tlin .ufo { top: 180%;}
+div.Tlin .pliers { transform: translate(-50%,-50%) rotate(1000deg);}
+div.Tlin .phone { left: 150%;}
+
+.bx div { transition: all 2s;}
+
+.nav { z-index: 9999; width: 22px; height: 163px; position: fixed; right: 10px;	top: 50%; transform: translateY(-50%); background-position: 0 -110px;}
+.nav li { width: 16px; height: 16px; background-position: -40px -131px; margin: 10px auto; position: relative;}
+.nav li.current{ background-position: -40px -110px;}
+.nav li span { position: absolute; right: 50px; top: 0; width: 76px; height: 19px; background-position: 0 -80px; text-align: center; line-height: 19px; color: #fff; font-size: 12px; visibility: hidden; transition: all .5s;}

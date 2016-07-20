@@ -1,0 +1,30 @@
+.gysp { position: fixed; top: 120px; z-index: 10}
+.content { height: 3404px; position: relative;}
+.youjt { position: fixed; width: 80px; height: 80px; background: url("../images/to-top-2.png") no-repeat; right: 40px; bottom: 170px;}
+.youjt:hover { background: url("../images/to-top.png") no-repeat;}
+.youjt { display: none;}
+
+.ritent { width: 282px; height: 382px; position: absolute; right: 0; top: 0;}
+.letent { width: 528px; margin-top: 42px;}
+.letent p { text-indent: 0;}
+.letent .twoH { margin-top: 48px;}
+.lefttent { width: 310px; height: 1380px; float: left; margin-top: 42px; margin-right: 50px; position: relative;}
+.lefttent .mg2 { position: absolute; bottom: 0;}
+.tuandui { width: 1200px; margin: 0 auto;}
+.intudu { width: 700px; float: left; margin-top: 190px;}
+.intudu li { float: left; margin-right: 80px;}
+.intudu li p { text-align: center; font-size: 22px; color: #626262; margin-top: 12px; margin-bottom: 22px;}
+.intudu .cut { margin-right: 0;}
+.intudu h3 { font-size: 22px; margin-bottom: 30px;}
+.intudu .none { visibility: hidden;}
+.intudu ul { overflow: hidden;}
+.intudu .wnbd { border-bottom: 1px solid #ccc;}
+
+.footer { height: 152px; width: 100%; background: #000000;}
+.footerBxin { width: 1200px; margin: 0 auto; height: 152px;}
+.footer-l { width: 610px; height: 152px;}
+.footer-r { width: 250px; height: 152px;}
+.footer-l img { width: 150px; height: 60px; margin: 40px auto 0;}
+.footer-l p { font-size: 14px; color: #656469; line-height: 20px;}
+.footer-l p a { display: inline-block; font-size: 18px; margin-right: 34px; color: #9A9A9A; margin-bottom: 15px; margin-top: 40px;}
+.footer-r img { margin-top: 20px;}

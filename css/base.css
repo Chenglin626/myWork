@@ -1,0 +1,33 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, input, button, fieldset, legend, img { margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6 { font-size: 14px; font-weight: normal;}
+fieldset, img{ border: none;}
+img { display: block;}
+em { font-style: normal;}
+ul, ol { list-style: none;}
+a { color: #3C3C3C; text-decoration: none;}
+body{ background: #fff; font-size: 12px; font-family: '微软雅黑';}
+.fL{ float: left;}
+.fR{ float: right;}
+.clearfix:after { content: ""; display: block; clear: both;}
+.clearfix { zoom: 1;}
+.xycenter { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform:translate(-50%,-50%); -moz-transform: translate(-50%,-50%);}
+
+.m0auto { margin: 0 auto;}
+.head nav { position: absolute; bottom: 0px; left: 0; width: 100%; height: 120px; background: rgba(255,255,255,0.9); border-top: 2px solid #f08e36; z-index: 100;}
+nav .nvbx { width: 1200px; height: 120px; margin: 0 auto;}
+.nvbx h1 { float: left; width: 80px; height: 80px; margin: 22px 0 0 26px; background: url(../image/icon/BIL.png) center;text-indent: -9999px;}
+.nvbx li { float: left; line-height: 120px; padding: 0 80px;}
+.nvbx li a { font-size: 22px; color: #000;}
+.nvbx li.current { position: relative;}
+.nvbx li.current:before { content: ''; position: absolute; width: 2px; height: 42px; background: #f08e36; top: 0px; left: 100px;}
+.nvbx li.current:after { content: ''; position: absolute; width: 6px; height: 6px; background: #f08e36; top: 42px; left: 98px; border-radius: 50%;}
+.nvbx li:nth-child(2):before { left: 120px;}
+.nvbx li:nth-child(2):after { left: 118px;}
+.nvbx li:nth-child(3):before { left: 110px;}
+.nvbx li:nth-child(3):after{left:108px;}
+
+.dialogue { width:321px; height: 163px; z-index: 200; left: 35%; top: 61%; background: url(../image/img/myname.png) center no-repeat;}
+
+.pointer { width: 88px; height: 76px; background: url(../image/icon/jiant.png) center; margin:10px auto;}
+
+footer { height: 120px; width: 100%; background: url(../image/img/footer.png) center no-repeat;}

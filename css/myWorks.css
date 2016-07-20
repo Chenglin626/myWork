@@ -1,0 +1,19 @@
+nav { position: fixed; top: 0; left: 0; width: 100%; height: 120px;	background: #fff; border-top: 2px solid #f08e36; z-index: 100; border-bottom: 2px solid #666;}
+body { background: #1a1a1a;}
+.main { width: 1200px; margin: 0 auto;}
+.main h1 { text-align: center; font-size: 52px; margin-bottom: 10px;}
+.bd { border: 1px solid #f08e36;}
+.m0auto { margin: 0 auto;}
+.main-hd { height: 341px; overflow: hidden;}
+.main-ft { height: 64px; margin-top: 2px; background: #2a2a2a;}
+.main-ft p { font-size: 32px; color: #fff; line-height: 64px; padding-left: 20px; background: url(../image/icon/jt01.png) 633px center no-repeat;}
+.clik { cursor: pointer; width: 686px;}
+.main-2 p { color: #f40; background-image: url(../image/icon/jt02.png);}
+.main-2 .main-ft{ background: #f3f3f3;}
+.warp { width: 1200px; background: #c6c6c6; padding: 20px 0;}
+.cut-off { height: 10px; background: #fff; margin: 35px 0;}
+.pointer { margin-top: 124px;}
+.main-3 .main-ft, .main-4 .main-ft { background: #f3f3f3;}
+.main-3 p { color: #ff4e49; background-image: url(../image/icon/jt03.png);}
+.main-4 p { color: #ff8705; background-image: url(../image/icon/jt04.png);}
+.mt10 { margin-top: 10px;}
