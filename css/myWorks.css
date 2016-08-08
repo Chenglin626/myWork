@@ -13,7 +13,6 @@ body { background: #1a1a1a;}
 .warp { width: 1200px; background: #c6c6c6; padding: 20px 0;}
 .cut-off { height: 10px; background: #fff; margin: 35px 0;}
 .pointer { margin-top: 124px;}
-.main-3 .main-ft, .main-4 .main-ft { background: #f3f3f3;}
+.main-3 .main-ft { background: #f3f3f3;}
 .main-3 p { color: #ff4e49; background-image: url(../image/icon/jt03.png);}
-.main-4 p { color: #ff8705; background-image: url(../image/icon/jt04.png);}
 .mt10 { margin-top: 10px;}
