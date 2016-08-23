@@ -15,8 +15,11 @@ var bgWrap = document.getElementById('bg_list');
 var bgUrl = document.getElementById('bg').getElementsByTagName('div');
 var bgBtn = document.getElementById('bg_btn').getElementsByTagName('div');
 
+var bgFin = document.getElementById('pic_show').getElementsByTagName('div')[0];
+
 bgUrl.that = bgUrl[0];
 addClass( 'active', bgUrl.that );
+
 
 function gameInt() {
 	oUl.startCtr = true;
@@ -30,7 +33,8 @@ function gameInt() {
 	for ( var i = 0; i < aLi.length; i++ ) {
 		aLi[i].children[0].style.background = 'url(img/' + bgData[ oUl.urlNum ] + ') -' + i%3 * 200 + 'px -' + Math.floor(i/3) * 150 + 'px';
 	}
-
+	bgFin.style.background = 'url(img/mini_' + bgData[ oUl.urlNum ] + ')';
+	
 };
 
 gameInt();
@@ -325,7 +329,8 @@ bgBtn[0].onclick = function () {
 				aLi[i].children[0].style.background = 'url(img/' + bgData[ oUl.urlNum ] + ') -' + i%3 * 200 + 'px -' + Math.floor(i/3) * 150 + 'px';
 			}
 		}
-			
+		
+		bgFin.style.background = 'url(img/mini_' + bgData[ oUl.urlNum ] + ')';
 	}
 	oUl.startCtr = picChange.startOnOff;
 	if ( picChange.moveOnOff ) oSpLi.gamerCtr = picChange.moveOnOff;

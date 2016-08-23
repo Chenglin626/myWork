@@ -4,7 +4,7 @@ li { list-style: none;}
 
 
 #control_bar_container { width: 200px; height: 480px; border: 5px solid rgb( 136, 136, 136 ); border-radius: 10px; float: left;}
-#control_bar { width: 100%; height: 100%; 
+#control_bar { width: 100%; height: 380px; margin-bottom: -50px;
 display: -webkit-box; 
 display: -moz-box; 
 display: -o-box; 
@@ -45,6 +45,13 @@ font-weight: bold;}
 #step { color: #C00; cursor: default;}
 #begin_control, #pic_change { cursor: pointer; color: black;}
 #begin_control.closeBtn { cursor: default; color: grey;}
+
+/*
+* 完成图例样式start
+*/
+#pic_show { width: 200px; height: 150px;}
+#pic_show span { display: block; width: 200px; height: 20px; line-height: 20px; font-size: 14px; text-align: center; margin-bottom: 10px;}
+.pic_fin { width: 100px; height: 75px; margin: 0 auto; border: 2px solid orange; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -o-border-radius: 2px;}
 
 div#pic_content { width: 630px; height: 480px; float: left; margin-left: 10px; border: 5px solid rgb( 136, 136, 136 ); -webkik-border-radius: 10px; -moz-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; position: relative;}
 
